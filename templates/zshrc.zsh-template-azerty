@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # Keypad
 # 0 . Enter
 bindkey -s "^[Op" "0"
-bindkey -s "^[Ol" "."
+bindkey -s "^[On" "."
 bindkey -s "^[OM" "^M"
 # 1 2 3
 bindkey -s "^[Oq" "1"
@@ -97,9 +97,9 @@ bindkey -s "^[Ow" "7"
 bindkey -s "^[Ox" "8"
 bindkey -s "^[Oy" "9"
 # + -  * /
-bindkey -s "^[Ok" "+"
-bindkey -s "^[Om" "-"
-bindkey -s "^[Oj" "*"
-bindkey -s "^[Oo" "/"
+bindkey -s "^[Ol" "+"
+bindkey -s "^[OS" "-"
+bindkey -s "^[OR" "*"
+bindkey -s "^[OQ" "/"
 
 eval `dircolors ~/.oh-my-zsh/templates/dircolors.ansi-dark`
